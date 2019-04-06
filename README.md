@@ -1,2 +1,2 @@
 # ezjoe.github.io
-ezJoe Pages
+ezJoe Pages source folder
