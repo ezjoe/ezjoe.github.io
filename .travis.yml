@@ -28,6 +28,6 @@ script:
 after_script:
   - git config user.name "ezJoe"
   - git config user.email "baoqiaoze@gmail.com"
-  - sed -i "s/gh_token/${GH_TOKEN}/g" ./_config.yml
+  - sed -i "s/gh_token/${githubToken}/g" ./_config.yml
   - cat ./_config.yml
   - hexo deploy
