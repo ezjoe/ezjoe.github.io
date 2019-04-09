@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ezJoe's blog
-subtitle: ezJoe's blog
-description: about code, about life
-keywords: ezJoe blog
+title: ezJoe
+subtitle: ezJoe的博客
+description: Coding...
+keywords: ezJoe blog code life
 author: ezJoe
 language: zh-Hans
-timezone: Asia/Shanghai
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -78,9 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  # 下方的gh_token会被.travis.yml中sed命令替换
-  repo: https://gh_token@github.com/ezjoe/ezjoe.github.io.git
-  branch: master
-
-
+  type: git
+    repo: https://gh_token@github.com/ezjoe/ezjoe.github.io.git
+    branch: master
